@@ -1,3 +1,5 @@
+// eslint-disable-next-line react/no-unescaped-entities
+
 import Image from 'next/image'
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
@@ -35,7 +37,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Joshua Vijayasegar</h2>
             <h3 className="text-2xl py-2 md:text-3xl">Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-lg mx-auto'>
-              Hi, my name is Joshua Vijayasegar and I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
+              Hi, my name is Joshua Vijayasegar! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
               pretty good grades. I am interested in exploring backend development and machine learning roles. This summer, I will be working in
               New York as a software engineering intern at Capital One. In my free-time I enjoy playing basketball, working out, playing tennis, and
               watching various forms of media with my friends.
