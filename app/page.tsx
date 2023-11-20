@@ -107,9 +107,9 @@ export default function Home() {
           <div>
             <h3 className='text-3xl py-1'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 '>
-              I've taken many classes at the University of Michigan where I completed cool projects. Additionally, I have pursued many
+              I have taken many classes at the University of Michigan where I completed cool projects. Additionally, I have pursued many
               personal projects relating to my interests. Finally, I have real world experience through internship work. Here are some of
-              the projects I've worked on.
+              the projects I have worked on.
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Here is some more text relating to my experiences.
