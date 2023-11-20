@@ -48,7 +48,7 @@ export default function Home() {
             <AiFillLinkedin/>
             <AiFillYoutube/>
           </div>
-          <div className='relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-96 md:w-96'>
+          <div className='shadow-lg relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} alt='picture of me holding a cat' layout='fill' objectFit='cover'/>
           </div>
         </section>
