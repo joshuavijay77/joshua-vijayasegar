@@ -78,7 +78,7 @@ export default function Home() {
               <Image src={presentation} alt='code icon' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Career</h3>
               <p className='py-2'>
-                What I think I want to do with my life, and how I'm preparing for that often changes. Click on
+                What I think I want to do with my life, and how I am preparing for that often changes. Click on
                 this card to view a timeline of how I decided to choose my career.
               </p>
             </div>
