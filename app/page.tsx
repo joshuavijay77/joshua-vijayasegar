@@ -1,20 +1,20 @@
 // eslint-disable-next-line react/no-unescaped-entities
-
 import Image from 'next/image'
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin, AiFillInstagram} from 'react-icons/ai'
 import deved from '../public/gato-removebg-preview.png'
-import design from '../public/design.png'
-import code from '../public/code.png'
-import consulting from '../public/consulting.png'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
-import React, { useState } from 'react';
+import bible from '../public/icons8-bible-94.png'
+import dumbell from '../public/icons8-dumbbell-94.png'
+import presentation from '../public/icons8-presentation-94.png'
+import insta485 from '../public/insta485.png'
+import neuralNetwork from '../public/neuralNetwork.png'
+import threeD from '../public/threeD.jpeg'
+import aiCfour from '../public/aiCfour.png'
+import ask485 from '../public/ask485.png'
+import piazza from '../public/piazza.png'
+import PortfolioCarousel from './carousel';
+
 
 export default function Home() {
   return (
@@ -30,109 +30,97 @@ export default function Home() {
             <h1 className="text-xl font-burtons">Joshua Vijayasegar</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill className="text-2xl cursor-pointer"/></li>
-              <li><a className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
+              <li><a className=" bg-blue-500 text-white px-4 py-2 rounded-md ml-8" href="#">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10 '>
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Joshua Vijayasegar</h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Software Engineer</h3>
+            <h2 className="text-5xl py-2 text-blue-500 font-medium md:text-6xl">Joshua Vijayasegar</h2>
+            <h3 className="text-2xl py-2 md:text-3xl">Student at UMich studying CSE </h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-lg mx-auto'>
               Hi, my name is Joshua Vijayasegar! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
               pretty good grades. I am interested in exploring backend development and machine learning roles. This summer, I will be working in
-              New York as a software engineering intern at Capital One. In my free-time I enjoy playing basketball, working out, playing tennis, and
-              watching various forms of media with my friends.
+              New York as a software engineering intern at Capital One. In my free-time I enjoy playing sports, working out, reading, and
+              hanging out with friends.
             </p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillTwitterCircle/>
-            <AiFillLinkedin/>
-            <AiFillYoutube/>
+          <div className='text-5xl flex justify-center gap-16 py-2 text-gray-600'>
+            <a href="https://github.com/joshuavijay77" target="_blank"><AiFillGithub/></a>
+            <a href="https://www.linkedin.com/in/joshua-v-1746b6174/" target="_blank"><AiFillLinkedin/></a>
+            <a href="https://www.instagram.com/joshua_vijay/" target="_blank"><AiFillInstagram/></a>
           </div>
-          <div className='shadow-lg relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden md:h-96 md:w-96'>
+          <div className='shadow-lg relative bg-gradient-to-b from-blue-400 rounded-full w-80 h-80 mt-20 mb-10 mx-auto overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} alt='picture of me holding a cat' layout='fill' objectFit='cover'/>
           </div>
         </section>
         <section>
-          <div>
-            <h3 className='text-3xl py-1'>Services I offer</h3>
+          <div className='text-center py-4'>
+            <h3 className='text-3xl py-1'>Hobbies</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              I have experience doing various things such as teaching tennis, tutoring, and full-stack development.
+              Growing up, I liked to play a lot of sports, and I still do. I also enjoy going to the gym and lifting.
+              Beyond those two things, I enjoy reading philosophy and the Bible and thinking critically about the world we live in
+              and our place in it.
             </p>
             <p className='text-md py-2 leading-8 text-gray-800'>
-              Here is some more text relating to my experiences.
             </p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={design} alt='design icon' width={100} height={100} className='mx-auto'/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-100 transition duration-300 hover:shadow-none'>
+              <Image src={dumbell} alt='design icon' width={100} height={100} className='mx-auto'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Athletics</h3>
               <p className='py-2'>
-                words words words words words words words words words words words words words words words
-                words words words words words words words words words words words words words words words
+                Athletics have always played a huge role in my life and overall happiness. I enjoy a lot of sports,
+                and I also enjoy just going to the gym or going for a run. Click on this card to learn more.
               </p>
-              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-              <p className='text-gra-800 py-1'>Photoshop</p>
-              <p className='text-gra-800 py-1'>Illustrator</p>
-              <p className='text-gra-800 py-1'>Figma</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={code} alt='code icon' width={100} height={100} className='mx-auto'/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Epic Code</h3>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-100 transition duration-300 hover:shadow-none'>
+              <Image src={presentation} alt='code icon' width={100} height={100} className='mx-auto'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Career</h3>
               <p className='py-2'>
-                words words words words words words words words words words words words words words words
-                words words words words words words words words words words words words words words words
+                What I think I want to do with my life, and how I'm preparing for that often changes. Click on
+                this card to view a timeline of how I decided to choose my career.
               </p>
-              <h4 className='py-4 text-teal-600'>Languages I use</h4>
-              <p className='text-gra-800 py-1'>Python</p>
-              <p className='text-gra-800 py-1'>C++</p>
-              <p className='text-gra-800 py-1'>React.js</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-              <Image src={consulting} alt='consulting icon' width={100} height={100} className='mx-auto'/>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Fantastic Consulting</h3>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-100 transition duration-300 hover:shadow-none'>
+              <Image src={bible} alt='consulting icon' width={100} height={100} className='mx-auto'/>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Life Purpose</h3>
               <p className='py-2'>
-                words words words words words words words words words words words words words words words
-                words words words words words words words words words words words words words words words
+                I enjoy reading about and discussing religion, philosophy, history, and science. I enjoy thinking about difficult
+                questions and discussing them with my friends. Click on this link to view a timeline of my changes in life philosophy.
               </p>
-              <h4 className='py-4 text-teal-600'>Qualities I have</h4>
-              <p className='text-gra-800 py-1'>Fun</p>
-              <p className='text-gra-800 py-1'>Nice</p>
-              <p className='text-gra-800 py-1'>Kind</p>
             </div>
           </div>
         </section>
         <section>
-          <div>
+          <div className='text-center'>
             <h3 className='text-3xl py-1'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 '>
               I have taken many classes at the University of Michigan where I completed cool projects. Additionally, I have pursued many
               personal projects relating to my interests. Finally, I have real world experience through internship work. Here are some of
               the projects I have worked on.
             </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
-              Here is some more text relating to my experiences.
-            </p>
           </div>
+          {/* <PortfolioCarousel /> */}
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1 || '../public/monday-cat.jpg'} width={100} height={100} layout="responsive" alt='porfolio item one' className='rounded-lg object-cover'/>
+              <Image src={insta485} width={100} height={100} layout="responsive" alt='porfolio item one' className='rounded-lg object-cover'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web2} width={100} height={100} layout="responsive" alt='porfolio item two' className='rounded-lg object-cover'/>
+              <Image src={neuralNetwork} width={100} height={100} layout="responsive" alt='porfolio item two' className='rounded-lg object-cover'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web3} width={100} height={100} layout="responsive" alt='porfolio item three' className='rounded-lg object-cover'/>
+              <Image src={aiCfour} width={100} height={100} layout="responsive" alt='porfolio item three' className='rounded-lg object-cover'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web4} width={100} height={100} layout="responsive" alt='porfolio item four' className='rounded-lg object-cover'/>
+              <Image src={ask485} width={100} height={100} layout="responsive" alt='porfolio item four' className='rounded-lg object-cover'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web5} width={100} height={100} layout="responsive" alt='porfolio item five' className='rounded-lg object-cover'/>
+              <Image src={threeD} width={100} height={100} layout="responsive" alt='porfolio item five' className='rounded-lg object-cover'/>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web6} width={100} height={100} layout="responsive" alt='porfolio item six' className='rounded-lg object-cover'/>
+              <Image src={piazza} width={100} height={100} layout="responsive" alt='porfolio item six' className='rounded-lg object-cover'/>
             </div>
           </div>
         </section>
