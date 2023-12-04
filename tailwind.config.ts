@@ -10,11 +10,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bkg: "hsl(220, 14.3%, 95.3%)",
-        main: "hsl(111, 58%, 17%)",
-        third: "hsl(215, 27.9%, 16.9%",
-        blk: "hsl(0, 0%, 0%)",
-        wht: "hsl(0, 0%, 100%)",
+        bkg: "hsl(var(--color-bkg) / <alpha-value>)",
+        main: "hsl(var(--color-main) / <alpha-value>)",
+        pic: "hsl(var(--color-pic) / <alpha-value>)",
+        third: "hsl(var(--color-third) / <alpha-value>)",
+        blk: "hsl(var(--color-blk) / <alpha-value>)",
+        wht: "hsl(var(--color-wht) / <alpha-value>)",
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
