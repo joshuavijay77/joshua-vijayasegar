@@ -21,12 +21,13 @@ import piazza from '../public/piazza.png'
 import PortfolioCarousel from './ImageCarousel';
 import Athletics from './athletics';
 import {useState} from 'react';
+import './globals.css';
 
 
 export default function Home() {
   const images = ['insta485', 'neuralNetwork', 'threeD', 'aiCfour', 'ask485', 'piazza'];
     return (
-    <div data-theme='dark'>
+    <div data-theme='light'>
       <Head>
         <meta name="description" content="Portfolio website for Joshua Vijayasegar" />
         <title>Joshua Vijayasegar Portfolio</title>
@@ -77,7 +78,7 @@ export default function Home() {
           </div>
           <div className='lg:flex gap-10 mb-20 '>
             <Link href="/athletics">
-                <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none mb-10'>
+                <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none mb-10'>
                   <Image src={dumbell} alt='design icon' width={100} height={100} className='mx-auto'/>
                   <h3 className='text-lg font-medium pt-8 pb-2 text-blk'>Athletics</h3>
                   <p className='py-2 text-blk'>
@@ -87,7 +88,7 @@ export default function Home() {
                   </p>
                 </div>
             </Link>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none'>
+            <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none'>
               <Image src={presentation} alt='code icon' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2 text-blk'>Career</h3>
               <p className='py-2 text-blk'>
@@ -97,7 +98,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none'>
+            <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none'>
               <Image src={bible} alt='consulting icon' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2 text-blk'>Faith</h3>
               <p className='py-2 text-blk'>

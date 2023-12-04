@@ -16,6 +16,7 @@ const config: Config = {
         third: "hsl(var(--color-third) / <alpha-value>)",
         blk: "hsl(var(--color-blk) / <alpha-value>)",
         wht: "hsl(var(--color-wht) / <alpha-value>)",
+        card: "hsl(var(--color-card) / <alpha-value>)",
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

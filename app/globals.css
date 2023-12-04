@@ -10,16 +10,25 @@
     --color-third: 215deg 27.9% 16.9%;
     --color-blk: 0deg 0% 0%;
     --color-wht: 0deg 0% 100%;
+    --color-card: 0deg 0% 100%;
   }
 
   @media (prefers-color-scheme:dark) {
     :root {
       --color-main: 220deg 14.3% 95.3%;
       --color-pic: 0deg 0% 100%;
-      --color-bkg: 111deg 58% 17%;
+      --color-bkg: 196deg 59% 14%;
       --color-wht: 215deg 27.9% 16.9%;
       --color-blk: 0deg 0% 100%;
       --color-third: 0deg 0% 100%;
+      --color-card: 196deg 59% 26%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      transition: none !important;
+      animation: none !important;
     }
   }
 
