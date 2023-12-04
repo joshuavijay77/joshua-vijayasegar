@@ -45,8 +45,8 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 '>
-            <h2 className="text-5xl py-2 text-green-900 font-medium md:text-6xl">Joshua Vijayasegar</h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Student at UMich</h3>
+            <h2 className="hover:skew-x-12 first-letter:text-5xl py-2 text-green-900 font-medium md:text-6xl">Joshua Vijayasegar</h2>
+            <h3 className="hover:skew-x-12 text-2xl py-2 md:text-3xl">Student at UMich</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-lg mx-auto'>
               Hi, my name is Josh! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
               pretty good grades. I am interested in exploring backend development and machine learning roles. This summer, I will be working in
@@ -55,9 +55,9 @@ export default function Home() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-2 text-gray-600'>
-            <a href="https://github.com/joshuavijay77" target="_blank"><AiFillGithub/></a>
-            <a href="https://www.linkedin.com/in/joshua-v-1746b6174/" target="_blank"><AiFillLinkedin/></a>
-            <a href="https://www.instagram.com/joshua_vijay/" target="_blank"><AiFillInstagram/></a>
+            <a className='animate-pulse' href="https://github.com/joshuavijay77" target="_blank"><AiFillGithub/></a>
+            <a className='animate-pulse' href="https://www.linkedin.com/in/joshua-v-1746b6174/" target="_blank"><AiFillLinkedin/></a>
+            <a className='animate-pulse' href="https://www.instagram.com/joshua_vijay/" target="_blank"><AiFillInstagram/></a>
           </div>
           <div className='shadow-lg relative bg-gradient-to-b from-green-700 rounded-full w-80 h-80 mt-20 mb-10 mx-auto overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} alt='picture of me holding a cat' layout='fill' objectFit='cover'/>
@@ -117,13 +117,13 @@ export default function Home() {
           </div>
           {/* <ImageCarousel images={images} /> */}
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-            <div className='basis-1/4 flex-1'>
+            <div className='basis-1/5 flex-1'>
               <Image src={insta485} width={100} height={100} layout="responsive" alt='porfolio item one' className='rounded-lg object-cover'/>
             </div>
             <div className='basis-1/3 flex-1'>
               <Image src={neuralNetwork} width={100} height={100} layout="responsive" alt='porfolio item two' className='rounded-lg object-cover'/>
             </div>
-            <div className='basis-1/3 flex-1'>
+            <div className='basis-1/4 flex-1'>
               <Image src={aiCfour} width={100} height={100} layout="responsive" alt='porfolio item three' className='rounded-lg object-cover'/>
             </div>
             <div className='basis-1/3 flex-1'>
