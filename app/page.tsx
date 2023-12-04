@@ -37,7 +37,7 @@ export default function Home() {
               <li><BsFillMoonStarsFill className="text-2xl cursor-pointer"/></li>
               <a
                 className="bg-green-900 text-white px-4 py-2 rounded-md ml-8"
-                href="/resume.pdf"  // Replace with the actual path to your resume file
+                href="https://github.com/joshuavijay77/joshua-vijayasegar/blob/main/public/resume.pdf"  // Replace with the actual path to your resume file
                 download="JOSHUA_VIJAYASEGAR_RESUME.pdf"  // Adjust the filename as needed
               >
                 Resume
@@ -132,7 +132,7 @@ export default function Home() {
             <div className='basis-1/3 flex-1'>
               <Image src={threeD} width={100} height={100} layout="responsive" alt='porfolio item five' className='rounded-lg object-cover'/>
             </div>
-            <div className='basis-1/4 flex-1'>
+            <div className='basis-1/6 flex-1'>
               <Image src={piazza} width={100} height={100} layout="responsive" alt='porfolio item six' className='rounded-lg object-cover'/>
             </div>
           </div>
