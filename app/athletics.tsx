@@ -13,8 +13,9 @@ import threeD from '../public/threeD.jpeg'
 import aiCfour from '../public/aiCfour.png'
 import ask485 from '../public/ask485.png'
 import piazza from '../public/piazza.png'
-import PortfolioCarousel from './carousel';
+import PortfolioCarousel from './ImageCarousel';
 
+"use client"
 
 export default function Athletics() {
   return (
