@@ -1,4 +1,6 @@
 // eslint-disable-next-line react/no-unescaped-entities
+'use client';
+
 import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -18,25 +20,27 @@ import ask485 from '../public/ask485.png'
 import piazza from '../public/piazza.png'
 import PortfolioCarousel from './ImageCarousel';
 import Athletics from './athletics';
+import {useState} from 'react';
 
 
 export default function Home() {
   const images = ['insta485', 'neuralNetwork', 'threeD', 'aiCfour', 'ask485', 'piazza'];
+  const [darkMode, setDarkMode] = useState(false)
     return (
-    <div>
+    <div className={darkMode ? "dark" : ""}>
       <Head>
         <meta name="description" content="Portfolio website for Joshua Vijayasegar" />
         <title>Joshua Vijayasegar Portfolio</title>
         <link rel="icon" href='/favicon.ico'></link>
       </Head>
-      <main className="bg-beige-100 px-10 md:px-20 lg:px-40">
+      <main className=" bg-bkg x-10 md:px-20 lg:px-40">
         <section className='min-h-screen'>
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Built with Next.js and TailwindCSS</h1>
+            <h1 className="text-xl font-burtons text-blk">Built with Next.js and TailwindCSS</h1>
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill className="text-2xl cursor-pointer"/></li>
               <a
-                className="bg-green-900 text-white px-4 py-2 rounded-md ml-8"
+                className="bg-main text-wht px-4 py-2 rounded-md ml-8"
                 href="https://drive.google.com/file/d/16WLBchwdnbaACltUuYzRRs7umOf7vGK9/view?usp=sharing"  // Replace with the actual path to your resume file
                 download="JOSHUA_VIJAYASEGAR_RESUME.pdf"  // Adjust the filename as needed
               >
@@ -45,16 +49,16 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 '>
-            <h2 className="hover:skew-x-12 first-letter:text-5xl py-2 text-green-900 font-medium md:text-6xl">Joshua Vijayasegar</h2>
-            <h3 className="hover:skew-x-12 text-2xl py-2 md:text-3xl">Student at UMich</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-lg mx-auto'>
+            <h2 className="hover:skew-x-12 first-letter:text-5xl py-2 text-main font-medium md:text-6xl">Joshua Vijayasegar</h2>
+            <h3 className="hover:skew-x-12 text-2xl py-2 md:text-3xl text-blk">Student at UMich</h3>
+            <p className='text-md py-5 leading-8 text-second md:text-xl max-lg mx-auto'>
               Hi, my name is Josh! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
               pretty good grades. I am interested in exploring backend development and machine learning roles. This summer, I will be working in
               New York as a software engineering intern at Capital One. In my free-time I enjoy playing sports, working out, reading, and
               hanging out with friends.
             </p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-2 text-gray-600'>
+          <div className='text-5xl flex justify-center gap-16 py-2 text-main'>
             <a className='animate-pulse' href="https://github.com/joshuavijay77" target="_blank"><AiFillGithub/></a>
             <a className='animate-pulse' href="https://www.linkedin.com/in/joshua-v-1746b6174/" target="_blank"><AiFillLinkedin/></a>
             <a className='animate-pulse' href="https://www.instagram.com/joshua_vijay/" target="_blank"><AiFillInstagram/></a>
@@ -65,13 +69,11 @@ export default function Home() {
         </section>
         <section className='mb-4rem'>
           <div className='text-center py-4'>
-            <h3 className='text-3xl py-1'>Areas I want to grown in: </h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>
+            <h3 className='text-3xl py-1 text-blk'>Areas I want to grown in: </h3>
+            <p className='text-md py-2 leading-8 text-second'>
               Growing up, I liked to play a lot of sports, and I still do. I also enjoy going to the gym and lifting.
               Beyond those two things, I enjoy reading philosophy and the Bible and thinking critically about the world we live in
               and our place in it.
-            </p>
-            <p className='text-md py-2 leading-8 text-gray-800'>
             </p>
           </div>
           <div className='lg:flex gap-10 mb-20 '>
@@ -109,7 +111,7 @@ export default function Home() {
         <section>
           <div className='text-center mb-1'>
             <h3 className='text-3xl py-1 mb-1'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 '>
+            <p className='text-md py-2 leading-8 text-second '>
               I have taken many classes at the University of Michigan where I completed cool projects. Additionally, I have pursued many
               personal projects relating to my interests. Finally, I have real world experience through internship work. Here are some of
               the projects I have worked on.
