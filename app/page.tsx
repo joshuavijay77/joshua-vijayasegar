@@ -22,7 +22,7 @@ import Athletics from './athletics';
 
 export default function Home() {
   const images = ['insta485', 'neuralNetwork', 'threeD', 'aiCfour', 'ask485', 'piazza'];
-  return (
+    return (
     <div>
       <Head>
         <meta name="description" content="Portfolio website for Joshua Vijayasegar" />
@@ -46,9 +46,9 @@ export default function Home() {
           </nav>
           <div className='text-center p-10 '>
             <h2 className="text-5xl py-2 text-green-900 font-medium md:text-6xl">Joshua Vijayasegar</h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Student at UMich studying CSE </h3>
+            <h3 className="text-2xl py-2 md:text-3xl">Student at UMich</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-lg mx-auto'>
-              Hi, I'm Josh! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
+              Hi, my name is Josh! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
               pretty good grades. I am interested in exploring backend development and machine learning roles. This summer, I will be working in
               New York as a software engineering intern at Capital One. In my free-time I enjoy playing sports, working out, reading, and
               hanging out with friends.
@@ -80,8 +80,9 @@ export default function Home() {
                   <Image src={dumbell} alt='design icon' width={100} height={100} className='mx-auto'/>
                   <h3 className='text-lg font-medium pt-8 pb-2'>Athletics</h3>
                   <p className='py-2'>
-                    I love to play sports and work out. My favorite sports are basketball, tennis, and soccer. My current
-                    goals in the gym are to bench 2 plates, squat 3 plates, and deadlift 4 plates.
+                    I love to play sports and work out. My favorite sports are basketball, tennis, and soccer. But I also want
+                    to get better at running, climbing, and boxing. My current goals in the gym are to bench 2 plates,
+                    squat 3 plates, and deadlift 4 plates.
                   </p>
                 </div>
             </Link>
@@ -89,8 +90,9 @@ export default function Home() {
               <Image src={presentation} alt='code icon' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Career</h3>
               <p className='py-2'>
-                Right now, I want to be a software engineer at a big tech company. Then I want to start my own company. Then I want to become
-                a highschool teacher or missionary.
+                Right now, I want to be a software engineer at a big tech company. After doing that for a year or two
+                I want to do something more significant with my life, like having kids or inventing something that helps
+                people. In the long run I want to become a highschool teacher or missionary.
               </p>
             </div>
 
@@ -98,8 +100,8 @@ export default function Home() {
               <Image src={bible} alt='consulting icon' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Faith</h3>
               <p className='py-2'>
-                I like to read about Christianity and how it fits within philosophy, history, and science. I enjoy thinking about difficult
-                questions and discussing them with my friends.
+                I like to read the Bible and learn about Christianity and how it bridges between philosophy, history, and science.
+                I also enjoy learning about the way other people look at things and discussing difficult questions.
               </p>
             </div>
           </div>
@@ -137,6 +139,7 @@ export default function Home() {
         </section>
       </main>
     </div>
+
 
   )
 }
