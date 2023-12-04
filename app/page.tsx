@@ -132,9 +132,9 @@ export default function Home() {
             <div className='basis-1/3 flex-1'>
               <Image src={threeD} width={100} height={100} layout="responsive" alt='porfolio item five' className='rounded-lg object-cover'/>
             </div>
-            <div className='basis-1/6 flex-1'>
+            {/* <div className='basis-1/6 flex-1'>
               <Image src={piazza} width={100} height={100} layout="responsive" alt='porfolio item six' className='rounded-lg object-cover'/>
-            </div>
+            </div> */}
           </div>
         </section>
       </main>
