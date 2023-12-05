@@ -7,7 +7,7 @@ import Link from 'next/link'
 import React from 'react';
 import ImageCarousel from './ImageCarousel';
 import {BsFillMoonStarsFill} from 'react-icons/bs'
-import {AiFillGithub, AiFillLinkedin, AiFillInstagram} from 'react-icons/ai'
+import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import deved from '../public/gato-removebg-preview.png'
 import bible from '../public/icons8-bible-100.png'
 import dumbell from '../public/icons8-basketball-64.png'
@@ -61,7 +61,7 @@ export default function Home() {
           <div className='text-5xl flex justify-center gap-16 py-2 text-main'>
             <a className='animate-pulse' href="https://github.com/joshuavijay77" target="_blank"><AiFillGithub/></a>
             <a className='animate-pulse' href="https://www.linkedin.com/in/joshua-v-1746b6174/" target="_blank"><AiFillLinkedin/></a>
-            <a className='animate-pulse' href="https://www.instagram.com/joshua_vijay/" target="_blank"><AiFillInstagram/></a>
+            <a className='animate-pulse' href="mailto:joshv@umich.edu" target="_blank"><AiFillMail/></a>
           </div>
           <div className='shadow-lg relative bg-gradient-to-b from-pic rounded-full w-80 h-80 mt-20 mb-10 mx-auto overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} alt='picture of me holding a cat' layout='fill' objectFit='cover'/>
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div className='lg:flex gap-10 mb-20 '>
             <Link href="/athletics">
-                <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none mb-10'>
+                <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:skew-x-2 transition duration-300 hover:shadow-none mb-10'>
                   <Image src={dumbell} alt='design icon' width={100} height={100} className='mx-auto'/>
                   <h3 className='text-lg font-medium pt-8 pb-2 text-blk'>Athletics</h3>
                   <p className='py-2 text-blk'>
@@ -88,7 +88,7 @@ export default function Home() {
                   </p>
                 </div>
             </Link>
-            <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none'>
+            <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:skew-x-2 transition duration-300 hover:shadow-none'>
               <Image src={presentation} alt='code icon' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2 text-blk'>Career</h3>
               <p className='py-2 text-blk'>
@@ -98,7 +98,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:bg-gray-200 transition duration-300 hover:shadow-none'>
+            <div className=' bg-card text-center shadow-lg p-10 rounded-xl my-10 hover:skew-x-2 transition duration-300 hover:shadow-none'>
               <Image src={bible} alt='consulting icon' width={100} height={100} className='mx-auto'/>
               <h3 className='text-lg font-medium pt-8 pb-2 text-blk'>Faith</h3>
               <p className='py-2 text-blk'>
@@ -111,7 +111,7 @@ export default function Home() {
         <section>
           <div className='text-center mb-1'>
             <h3 className='text-3xl py-1 mb-1 text-blk'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-third '>
+            <p className='text-md py-2 leading-8 text-third'>
               I have taken many classes at the University of Michigan where I completed cool projects. Additionally, I have pursued many
               personal projects relating to my interests. Finally, I have real world experience through internship work. Here are some of
               the projects I have worked on.
