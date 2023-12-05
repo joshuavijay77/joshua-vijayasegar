@@ -54,8 +54,8 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-second md:text-xl max-lg mx-auto text-third'>
               Hi, my name is Josh! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
               pretty good grades. I am interested in exploring backend development and machine learning roles. This summer, I will be working in
-              New York as a software engineering intern at Capital One. In my free-time I enjoy playing sports, working out, reading, and
-              hanging out with friends.
+              New York as a software engineering intern at Capital One. I try to always make time to sports, working out, read, and
+              hang out with friends.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-2 text-main'>
