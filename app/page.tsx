@@ -72,7 +72,7 @@ export default function Home() {
             <h3 className='text-3xl py-1 text-blk'>Areas I want to grown in: </h3>
             <p className='text-md py-2 leading-8 text-second text-third'>
               Growing up, I liked to play a lot of sports, and I still do. I also enjoy going to the gym and lifting.
-              Beyond those two things, I enjoy reading philosophy and the Bible and thinking critically about the world we live in
+              Beyond those two things, I enjoy reading philosophy and the Bible, and thinking critically about the world we live in
               and our place in it.
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
                   <Image src={dumbell} alt='design icon' width={100} height={100} className='mx-auto'/>
                   <h3 className='text-lg font-medium pt-8 pb-2 text-blk'>Athletics</h3>
                   <p className='py-2 text-blk'>
-                    I love to play sports and work out. My favorite sports are basketball, tennis, and soccer. But I also want
+                    I love to play sports and work out. My favorite sports are basketball, tennis, and soccer. I also want
                     to get better at running, climbing, and boxing. My current goals in the gym are to bench 2 plates,
                     squat 3 plates, and deadlift 4 plates.
                   </p>
