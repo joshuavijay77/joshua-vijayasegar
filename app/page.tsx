@@ -53,7 +53,7 @@ export default function Home() {
             <h3 className="hover:skew-x-12 text-2xl py-2 md:text-3xl text-blk">Student at UMich</h3>
             <p className='text-md py-5 leading-8 text-second md:text-xl max-lg mx-auto text-third'>
               Hi, my name is Josh! I am a junior studying computer science engineering at the University of Michigan Ann Arbor with
-              pretty good grades. I am interested in exploring backend development and machine learning roles. This summer, I will be working in
+              pretty good grades. I am interested in exploring backend development or full-stack development roles. This summer, I will be working in
               New York as a software engineering intern at Capital One. I try to always make time to play sports, work out, read, and
               hang out with friends.
             </p>
