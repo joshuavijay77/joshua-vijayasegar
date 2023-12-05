@@ -40,7 +40,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li><BsFillMoonStarsFill className="text-2xl cursor-pointer text-blk"/></li>
               <a
-                className="bg-main text-wht px-4 py-2 rounded-md ml-8"
+                className="bg-main animate-pulse text-wht px-4 py-2 rounded-md ml-8"
                 href="https://drive.google.com/file/d/16WLBchwdnbaACltUuYzRRs7umOf7vGK9/view?usp=sharing"  // Replace with the actual path to your resume file
                 download="JOSHUA_VIJAYASEGAR_RESUME.pdf"  // Adjust the filename as needed
               >
