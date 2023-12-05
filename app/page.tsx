@@ -69,7 +69,7 @@ export default function Home() {
         </section>
         <section className='mb-4rem'>
           <div className='text-center py-4'>
-            <h3 className='text-3xl py-1 text-blk'>Areas I want to grown in: </h3>
+            <h3 className='text-3xl py-1 text-blk'>Areas I want to grow in: </h3>
             <p className='text-md py-2 leading-8 text-second text-third'>
               Growing up, I liked to play a lot of sports, and I still do. I also enjoy going to the gym and lifting.
               Beyond those two things, I enjoy reading philosophy and the Bible, and thinking critically about the world we live in
